@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game </title>
+    
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>  
+
+    <div id="quizContainer" class="quizQuestions">
+
+        
+                 <h1>90'S MUSIC TRIVIA GAME</h1>
+                <br>
+               
+                <div>Time Remaining:<span id="timer"> 01:00</span></div>
+
+            <div id="results"></div>
+            <div style="float: left; width: 50%">  
+
+                <h3 id="questions"> 1. What is the stage name of the American rapper Marshall Bruce Mathers?</h3>
+                <input type="radio" name="q1" value="wrong" class="q1a">Jay-Z</input>
+                 <input type="radio" name="q1" value="correct" class="q1b">Eminem</input>
+                 <input type="radio" name="q1" value="wrong" class="q1c">Beastie Boys</input>
+                 <br>
+                 <br>
+            
+                <h3 id="questions">2. What was the name of Jay-Z's first album?</h3>
+       
+                <input type="radio" name="q2" value="wrong" class="q2a">My Lifetime</input>
+                 <input type="radio" name="q2" value="wrong" class="q2b">Hardknock Life</input>
+                 <input type="radio" name="q2" value="correct" class="q2c">Reasonable Doubt</input>
+                 <br>
+                 <br>
+        
+                 <h3 id="questions">3. Which of the following rappers were part of N.W.A</h3>
+       
+                     <input type="radio" name="q3" value="wrong" class="q3a">Tupac</input>
+                     <input type="radio" name="q3" value="wrong" class="q3b">Snoop Dogg</input>
+                     <input type="radio" name="q3" value="correct" class="q3c">Dr.Dre </input>
+                     <br>
+                     <br>             
+
+                 <h3> 4. What Record label was Tupac signed to?</h3>
+       
+                 <input type="radio" name="q4" value="wrong" class="q4a">Sony Music </input>
+                 <input type="radio" name="q4" value="wrong" class="q4b">Warner Music Group</input>
+                <input type="radio" name="q4" value="correct" class="q4c">Death Row</input>
+                <br>
+                 <br>
+                <h3 id="questions">5. How many albums does Biggie Smalls have?</h3>
+       
+                 <input type="radio" name="q5" value="wrong" class="q5a">4</input>
+                 <input type="radio" name="q5" value="wrong" class="q5b">7</input>
+                 <input type="radio" name="q5" value="correct" class="q5c">2</input>
+                <br>
+                <br>
+                <h3 id="questions">6. Who produced Snoop Doggs first album</h3>
+       
+                <input type="radio" name="q6" value="correct" class="q6a">Puff Daddy</input>
+                <input type="radio" name="q6" value="wrong" class="q6b">Dr. Dre</input>
+                <input type="radio" name="q6" value="wrong" class="q6c">Eminem</input>
+                <br>
+                <br>
+                <h3 id="questions"> 7. What was Missy Elliots hit 1997 song</h3>
+       
+                <input type="radio" name="q7" value="wrong" class="q7a">Sock it to me</input>
+                <input type="radio" name="q7" value="correct" class="q7b">The Rain</input>
+                <input type="radio" name="q7" value="wrong" class="q7c">Hot Boyz</input>
+                <br>
+                <br>
+                <h3 id="questions"> 8. Which rappers debut album is titled 'Illmatic'</h3>
+       
+                <input type="radio" name="q8" value="wrong" class="q8a">Biggie Smalls</input>
+                <input type="radio" name="q8" value="correct" class="q8b">Nas</input>
+                <input type="radio" name="q8" value="wrong" class="q8c">Ice Cube</input>
+                <br>
+                <br>
+            </div>
+    </div>
+
+    <div id=quizContainer>
+      <div style="float: left; width: 50%">
+       
+        <h3 id="questions"> 9. What was Whitney Houstons hit song in 1992?</h3>
+       
+        <input type="radio" name="q9" value="correct" class="q9a">I will Always Love You</input>
+        <input type="radio" name="q9" value="wrong" class="q9b">I have Nothing</input>
+        <input type="radio" name="q9" value="wrong" class="q9c">How Will I know</input>
+        <br>
+        <br>
+        <h3 id="questions"> 10. What was Mobb Deep's original group name?</h3>
+       
+        <input type="radio" name="q10" value="correct" class="q10a">Poetical Prophets</input>
+        <input type="radio" name="q10" value="wrong" class="q10b">Cru</input>
+        <input type="radio" name="q10" value="wrong" class="q10c">Cella Dwellas</input>
+        <br>
+        <br>
+        <h3 id="questions"> 11. What is Snoop sippin on in his 1993 hit song? </h3>
+       
+        <input type="radio" name="q11" value="wrong" class="q11a">Jack and Cranberry</input>
+        <input type="radio" name="q11" value="correct" class="q11b">Gin and Juice</input>
+        <input type="radio" name="q11" value="wrong" class="q11c">Greygoose</input>
+        <br>
+        <br>
+        <h3 id="questions"> 12. What does Biggie Smalls like to be called? </h3>
+       
+        <input type="radio" name="q12" value="wrong" class="q12a">Notorious</input>
+        <input type="radio" name="q12" value="wrong" class="q12b">Biggie Biggie</input>
+        <input type="radio" name="q12" value="correct" class="q12c">Big Poppa</input>
+        <br>
+        <br>
+
+        <h3 id="questions"> 13. What city is NOT mentioned in Tupac's song 'California Lov'?</h3>
+       
+        <input type="radio" name="q13" value="wrong" class="q13a">Inglewood</input>
+        <input type="radio" name="q13" value="wrong" class="q13b">Oakland</input>
+        <input type="radio" name="q13" value="correct" class="q13c">Bakersfield</input>
+        <br>
+        <br>
+        <h3 id="questions"> 14. Who did the Lakers beat in Ice Cube's song 'Today Was a Good Day'? </h3>
+       
+        <input type="radio" name="q14" value="wrong" class="q14a">Warriors</input>
+        <input type="radio" name="q14" value="correct" class="q14b">Supersonics</input>
+        <input type="radio" name="q14" value="wrong" class="q14c">Clippers</input>
+        <br>
+        <br>
+
+        <h3 id="questions"> 15. What type of car did Eazy-E have? </h3>
+       
+        <input type="radio" name="q15" value="wrong" class="q15a">64 Pontiac</input>
+        <input type="radio" name="q15" value="correct" class="q15b">64 Impala</input>
+        <input type="radio" name="q15" value="wrong" class="q15c">64 Toyota</input>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button type="button" class="submit" onclick="return handleClick();" width"200" height"100">Submit Quiz</button>
+      </div>
+    </div>
+    <!-- <div id="results">
+        <input type="radio" name="q1" value="correct" class="q1b">Eminem</input>
+        <input type="radio" name="q2" value="correct" class="q2c">Reasonable Doubt</input>
+        <input type="radio" name="q3" value="correct" class="q3c">Dr.Dre </input>
+        <input type="radio" name="q4" value="correct" class="q4c">Death Row</input>
+        <input type="radio" name="q5" value="correct" class="q5c">2</input>
+        <input type="radio" name="q6" value="correct" class="q6a">Puff Daddy</input>
+        <input type="radio" name="q7" value="correct" class="q7b">The Rain</input>
+        <input type="radio" name="q8" value="correct" class="q8b">Nas</input>
+        <input type="radio" name="q9" value="correct" class="q9a">I will Always Love You</input>
+        <input type="radio" name="q10" value="correct" class="q10a">Poetical Prophets</input>
+        <input type="radio" name="q11" value="correct" class="q11b">Gin and Juice</input>
+        <input type="radio" name="q12" value="correct" class="q12c">Big Poppa</input>
+        <input type="radio" name="q13" value="correct" class="q13c">Bakersfield</input>
+        <input type="radio" name="q14" value="correct" class="q14b">Supersonics</input>
+        <input type="radio" name="q15" value="correct" class="q15b">64 Impala</input>
+
+    </div> -->
+
+    <script src="Assets/game.js"></script>
+</body>
+
+
+
+
+</html>

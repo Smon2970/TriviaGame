@@ -1,0 +1,42 @@
+body{
+    background-color: grey;
+    background-size: cover;
+    border: solid;
+}
+
+h1{
+    font-family: 'Ultra', serif;
+    text-align: center;
+    color: red;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCaFX-Wf14usQfJVJnSATnDe09fAmG-MUOIeW_gfFd25yilShJ"); */
+}
+
+
+#quizContainer{
+    background: rgba(218, 214, 20, 1.5);
+    font-size: 20px;
+    border: solid;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCaFX-Wf14usQfJVJnSATnDe09fAmG-MUOIeW_gfFd25yilShJ");
+}
+
+.submit{
+    float:center;
+    height: 50px;
+    width: 180px;
+    background-color: red;
+    font-size: 20px;
+}
+h3{
+    color: black;
+}
+
+#timer{
+    color: red;
+    font-size: 30px;
+}
+
+.time{
+    color: red;
+    font-size:30px;
+}
