@@ -4,7 +4,7 @@
 var totalQuestions = 15;
 var right = 0;
 var wrong = 0;
-var time = 3;
+var time = 60;
 
 
 //correct answers
